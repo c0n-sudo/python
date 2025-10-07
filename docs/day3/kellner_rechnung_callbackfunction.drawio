@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
   <diagram name="Seite-1" id="q9GE-YcTkPF5vQShGvUk">
-    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,44 +43,48 @@
         <mxCell id="7WNL2oBzL13hyoG_9b9U-14" value="Ende&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="590" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-16" target="7WNL2oBzL13hyoG_9b9U-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-16" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="470" y="30" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-17" target="7WNL2oBzL13hyoG_9b9U-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-17" value="Kunde bittet um die Rechnung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-19" target="7WNL2oBzL13hyoG_9b9U-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-19" value="Kunde zahlt die Rechnung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-23" target="7WNL2oBzL13hyoG_9b9U-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-23" value="Zahlung abgeschlossen -&amp;gt; Callback" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-25" target="7WNL2oBzL13hyoG_9b9U-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-25" value="Callback: Quittung" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="370" width="210" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="7WNL2oBzL13hyoG_9b9U-27" value="Ende" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="7WNL2oBzL13hyoG_9b9U-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PS Code Kellner Callback&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;START&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Kunde bestellt etwas&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Kellner bringt Bestellung in die Küche&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Definiere Funktion essen_fertig_callback():&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Kellner holt das Essen&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Kellner bringt es zum Kunden&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Kunde erhält das Essen&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Funktion küche_bereitet_essen_vor(callback):&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Zubereitung des Essens&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Wenn fertig: callback() aufrufen&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Rufe küche_bereitet_essen_vor(callback = essen_fertig_callback)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;ENDE&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="690" width="280" height="570" as="geometry" />
+          <mxGeometry x="240" y="25" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="7WNL2oBzL13hyoG_9b9U-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PS Code Rechnung Callback&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;START&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Kunde bittet um die Rechnung&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Kellner bringt die Rechnung&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Definiere Funktion quittung_callback():&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Drucke die Quittung&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Funktion kunde_zahlt(callback):&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Zahlung wird ausgeführt&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Danach: callback() aufrufen&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Rufe kunde_zahlt(callback = quittung_callback)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;ENDE&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="680" width="286" height="550" as="geometry" />
+          <mxGeometry x="234" y="690" width="286" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-34" target="7WNL2oBzL13hyoG_9b9U-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-34" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-36" target="7WNL2oBzL13hyoG_9b9U-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-36" value="Kunde bittet um die Rechnung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-38" target="7WNL2oBzL13hyoG_9b9U-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-38" value="Kunde zahlt die Rechnung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WNL2oBzL13hyoG_9b9U-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-40" value="Zahlung abgeschlossen -&amp;gt; Callback" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7WNL2oBzL13hyoG_9b9U-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-42" value="Callback: Quittung" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1030" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7WNL2oBzL13hyoG_9b9U-43" value="Ende" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1180" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
