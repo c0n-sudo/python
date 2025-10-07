@@ -3,7 +3,7 @@
 def checkFoodExistance(food_name:str):
     #             0        1         2          .........n
     arr_foods=["Pizza", "Pasta", "Döner"]
-    arr_length = arr_foods.count
+    arr_length = len(arr_foods)
     print(f"we have {arr_length} foods in our menu")
 
 def orderFood(food_name:str, checkFoodExistance):
@@ -12,5 +12,5 @@ def orderFood(food_name:str, checkFoodExistance):
 
 
     #--actual program use upper defined methods --#
-    order_string = input("what is your order?")
-    orderFood(order_string,checkFoodExistance)
+order_string = input("what is your order?")
+orderFood(order_string,checkFoodExistance)
